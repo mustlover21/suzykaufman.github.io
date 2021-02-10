@@ -18,7 +18,8 @@
 		$body .= "Message: ".$message. "\r\n";
 
 		mail($to,$smessageSubject, $body);
-		header("Locations: https://mustlover21.github.io/suzykaufman.github.io/");
+		header("Location: index.html");
+		// https://mustlover21.github.io/suzykaufman.github.io
 
 		$message_sent = true;
 		}
